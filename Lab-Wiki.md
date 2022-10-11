@@ -1,3 +1,9 @@
+# Lab Policies
+
+## Confidentiality
+
+Do not share information regarding current projects outside the lab. The rule is to not discuss ongoing projects with folks external to Vertaix, because we are a lab that just started and cannot afford scooping.
+
 # Writing
 
 For support on writing, especially academic or scientific writing, Princeton has a great resource called the Writing Center which is here to support you by providing workshops and opportunities to get feedback on your writing. For more information, please visit their website: https://writing.princeton.edu/ 
