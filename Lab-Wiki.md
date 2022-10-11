@@ -2,7 +2,7 @@
 
 ## Confidentiality
 
-Do not share information regarding current projects outside the lab. The rule is to not discuss ongoing projects with folks external to Vertaix, because we are a lab that just started and cannot afford scooping.
+## External Collaborations
 
 # Writing
 
@@ -61,5 +61,3 @@ Managing your time effectively is an important part of graduate school.
 ## Best Coding Practices
 
 # Learning
-
-# External Collaborations
