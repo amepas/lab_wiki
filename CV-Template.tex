@@ -1,0 +1,391 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+%\documentclass[22pt]{article}
+\documentclass[letterpaper,200pt]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+%\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Adji Bousso Dieng}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://jblevins.org/projects/cv-template/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {machine learning, bayesian statistics, deep learning, natural language understanding},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+\usepackage{eurosym}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+ % \href{http://www.columbia.edu}{Columbia University} \\
+  Merwick-Stanworth \\
+ 113 Stanworth Lane \\
+Princeton, NJ 08540
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Email: & \href{mailto:adji at princeton dot edu}{\tt adji at princeton dot edu} \\
+    Homepage: & \href{https://adjidieng.github.io}{\tt https://adjidieng.github.io} \\
+    Github: & \href{https://github.com/adjidieng}  {\tt https://github.com/adjidieng}\\
+    LinkedIn: &\href{https://www.linkedin.com/in/diengadji45}{\tt https://www.linkedin.com/in/diengadji45} \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Education}
+\begin{itemize}
+  \item Ph.D in Statistics, Columbia University \hfill{2014 -- 2020\\}
+	   Advisors: David Blei, John Paisley
+  \item Master in Applied Statistics, Cornell University \hfill{Jan 2012 -- May 2013\\}
+  	  Advisors: David Lifka, Martin Wells
+  \item Diplome d'Ingenieur, Telecom ParisTech \hfill{Sep 2009 -- May 2013\\}
+  	   France's \lq\lq Grandes Ecoles \rq\rq
+  \item Lycee Henri IV (France's   \lq\lq Classes Preparatoires aux Grandes Ecoles\rq\rq) \hfill{Sep 2007 -- June 2009}
+\end{itemize}
+%%%%%%% Add a "Relevant Coursework" line here if you are a student
+%Relevant Coursework: Probabilistic Modeling of Discrete High Dimensional Data, ...
+
+\section*{Employment}
+\begin{itemize}
+	\item Tenure-Track Assistant Professor of Computer Science \hfill{Fall 2021 -- \\}
+	         Princeton University, 
+	         Princeton, NJ
+	\item Research Scientist \hfill{August 2020 -- Present\\}
+	         Google AI, 
+	         New York, NY\\
+	         Team: Google Brain
+        \item Research Intern \hfill{September 2018 -- January 2019\\}
+                 DeepMind,
+                 London, UK \\
+                 Supervisor: Lei Yu
+	\item Research Intern \hfill{May 2018 -- August 2018\\}
+		Facebook AI Research, 
+		New York, NY\\
+		Supervisor: Yann LeCun
+	\item Research Intern \hfill{June 2017 -- Sep 2017\\}
+		Microsoft AI \& Research, 
+		Redmond, WA\\
+		Supervisors: Chong Wang, Jianfeng Gao
+	\item Research Intern \hfill{June 2016 -- Sep 2016\\}
+		Deep Learning Technology Center, Microsoft Research, 
+		Redmond, WA\\
+		Supervisors: Chong Wang, Jianfeng Gao
+	\item Junior Professional Associate  \hfill{June 2013- July 2014\\}
+		Market and Counterparty Risk Department\\
+		The World Bank, 
+		Washington, DC
+	\item Intern  \hfill{Jan 2013 -- May 2013\\}
+		Doing Business Team\\
+		International Finance Corporation,
+		Washington, DC
+	\item Research Intern \hfill{May 2012 -- Aug 2012\\}
+		Weill Cornell Medical College, 
+		New York, NY\\
+		Supervisor: Martin T. Wells
+\end{itemize}
+
+
+\section*{Publications \& Preprints}
+\begin{itemize}
+	\item \textbf{A. B. Dieng}, F. J. R. Ruiz, D. M. Blei, and M. Titsias.
+		\textit{Prescribed Generative Adversarial Networks.} 
+		Under Review at Journal of Machine Learning Research (JMLR).
+	\item \textbf{A. B. Dieng} and J. Paisley.
+		\textit{Reweighted Expectation Maximization.} 
+		Under Submission at Journal of Machine Learning Research (JMLR).\\
+		Link: https://arxiv.org/abs/1906.05850
+	\item \textbf{A. B. Dieng}, F. J. R. Ruiz, and D. M. Blei.
+		\textit{Topic Modeling in Embedding Spaces.} 
+		Transactions of the Association for Computational Linguistics (TACL), 2020.\\
+		Link: https://arxiv.org/abs/1907.04907
+	\item \textbf{A. B. Dieng}, F. J. R. Ruiz, and D. M. Blei.
+		\textit{The Dynamic Embedded Topic Model.} 
+		Under Review at International Conference on Machine Learning (ICML).\\
+		Link: https://arxiv.org/abs/1907.05545
+	\item \textbf{A. B. Dieng}, K. Cho, D. M. Blei, and Y. LeCun.
+		\textit{Learning with Reflective Likelihoods.} \\
+		Link https://openreview.net/pdf?id=SJlh2jR9FX.
+	\item D. Tran,  A. Kucukelbir, \textbf{A. B. Dieng}, M. Rudolph, D. Liang, and D.M. Blei. 
+		\textit{Edward: A Python library for probabilistic modeling, inference, and criticism.} \\
+		Link: https://arxiv.org/abs/1610.09787
+	\item \textbf{A. B. Dieng}, Y. Kim, A. M. Rush, and D. M. Blei.
+		\textit{Avoiding Latent Variable Collapse With Generative Skip Models.} 
+		Artificial Intelligence and Statistics (AISTATS), 2019.\\
+		Link: https://arxiv.org/abs/1807.04863
+	\item \textbf{A. B. Dieng}, Y. Kim, A. M. Rush, and D. M. Blei.
+		\textit{Avoiding Latent Variable Collapse With Generative Skip Models.} 
+		Workshop on Theoretical Foundations and Applications of Deep Generative Models, ICML, 2018.\\
+		Link: https://arxiv.org/abs/1807.04863
+	\item \textbf{A. B. Dieng}, R. Ranganath, J. Altosaar, and D. M. Blei. 
+		\textit{Noisin: Unbiased Regularization for Recurrent Neural Networks.} 
+		International Conference on Machine Learning (ICML), 2018.\\
+		Link: https://arxiv.org/abs/1805.01500
+	\item F. R. Ruiz, M. Titsias, \textbf{A. B. Dieng}, and D. M. Blei. 
+		\textit{Augment and Reduce: Stochastic Inference for Large Categorical Distributions.} 
+		International Conference on Machine Learning (ICML), 2018.\\
+		Link: https://arxiv.org/abs/1802.04220
+	\item D. Ciao, T. Ma, \textbf{A. B. Dieng}, D. M. Blei, and F. Wang. 
+		\textit{Readmission Prediction via Deep Contextual Embedding of Clinical Concepts.} 
+		Plos One, 2018. Named as one of the \textbf{best articles published in 2018 on clinical information systems} 
+		by the International Medical Interpreters Association (IMIA).
+	\item \textbf{A. B. Dieng}, C. Wang, J. Gao, and J. W. Paisley. 
+		\textit{TopicRNN: A Recurrent Neural Network with Long Range Semantic Dependency.} 
+		International Conference on learning Representation (ICLR), 2017.\\
+		Link: https://arxiv.org/abs/1611.01702
+	\item \textbf{A. B. Dieng}, D. Tran, R. Ranganath, J. W. Paisley and D. M. Blei. 
+		\textit{Variational Inference via $\chi$ Upper Bound Minimization.} 
+		Neural Information Processing Systems (NIPS), 2017. \\
+		Link: https://arxiv.org/abs/1611.00328
+\end{itemize}
+
+\section*{Talks \& Panels}
+\begin{itemize}	 
+	\item Conference on Empirical Methods in Natural Language Processing \hfill November 2020
+	\item AI$4$ALL Annual Summer Camp, Princeton Chapter \hfill July 2020
+	\item ICML Workshop on Invertible Neural Networks and Normalizing Flows \hfill July 2020
+	\item Johns Hopkins University CS Seminar, Baltimore, MD  \hfill March 2020
+	\item University of Pennsylvania CIS Seminar, Philadelphia, PA  \hfill March 2020
+	\item Princeton University CS Colloquium, Princeton, NJ \hfill March 2020
+	\item Brown University CS Colloquium, Providence, RI \hfill March 2020
+	\item Carnegie Mellon University CS Colloquium, Pittsburgh, PA  \hfill March 2020
+	\item Yale University Seminar, New Haven, CT \hfill March 2020
+	\item New York University Courant Institute of Mathematical Sciences, New York, NY  \hfill February 2020 
+	\item California Institute of Technology CMS Seminar, Pasadena, CA \hfill February 2020
+	\item University of Chicago CS Seminar, Chicago, IL \hfill February 2020
+	\item University of Illinois at Urbana Champaign CS Seminar, Urbana \& Champaign, IL \hfill February 2020
+	\item Twitter Cortex, New York, NY \hfill December 2019
+	\item Google Brain, Mountain View, CA \hfill December 2019
+	\item Microsoft Research, Redmond, WA \hfill December 2019
+	\item Carnegie Mellon University Machine Learning Seminar, Pittsburgh, PA \hfill November 2019
+	\item University of California Berkeley EECS Seminar, Berkeley, CA  \hfill October 2019
+	\item IPAM Workshop on Interpretable Learning in Physical Systems, Los Angeles , CA \hfill October 2019
+	\item Deep Learning Indaba, Two-Hour Lecture on Deep Generative Models, Nairobi, Kenya \hfill August 2019
+	\item Deep Learning Indaba, Women in Machine Learning and AI, Nairobi, Kenya  (panel) \hfill August 2019
+	\item Yahoo Research Seminar Series, New York, NY \hfill July 2019
+	\item New York Machine Learning and Artificial Intelligence Meetup, New York, NY \hfill June 2019
+	\item Latinx in AI and Black in AI joint Workshop, ICLR 2019,  New Orleans, LA (keynote) \hfill May 2019
+        \item NYU Text as Data Seminar Series, New York, NY \hfill March 2019
+        \item NYAS Machine Learning Symposium, New York, NY (short spotlight talk) \hfill  March 2019
+        \item South England Natural Language Processing Meetup, UK \hfill January 2019
+        \item Microsoft Research Cambridge, Cambridge, UK \hfill January 2019
+        \item International Conference on Machine Learning, Sweden \hfill July 2018
+	\item Columbia University Data Science Institute Student Seminar, New York, NY  \hfill  April 2018
+	\item Columbia University Minghui Memorial Conference, New York, NY (short talk) \hfill  April 2018
+	\item Tufts University CS Colloquium, Medford, MA \hfill April 2018
+	\item Harvard University NLP Group Meeting, Cambridge, MA \hfill April 2018
+	\item Stanford University NLP Seminar, Stanford, CA \hfill April 2018
+	\item NYAS Machine Learning Symposium, New York, NY (short spotlight talk) \hfill  March 2018
+	\item Women Techmakers $2018$ Summit, Google, New York, NY (Panel) \hfill Mach 2018
+ 	\item Machine Learning and Friends Seminar, UMass, Amherst, MA  \hfill  February 2018
+	\item Black in AI Workshop, Long Beach, CA (short spotlight talk) \hfill December 2017	
+	\item MSR AI, Microsoft Research, Redmond, WA \hfill   August 2017
+	\item SSLI Lab, University of Washington, Seattle, WA \hfill   August 2017
+	\item DeepLoria, Loria Laboratory, Nancy, France  \hfill  April 2017
+	\item AI With The Best, Online \hfill  April 2017
+	\item Columbia University Minghui Memorial Conference, New York, NY (short talk) \hfill  April 2017
+	\item OpenAI, San Francisco, CA   \hfill  January 2017
+	\item IBM TJ Watson Research, Yorktown Heights, NY  \hfill  December 2016
+\end{itemize}
+
+\section*{Awards \& Honors}
+\begin{itemize}	
+	\item Nominated by Columbia University for the ACM Doctoral Dissertation Award \hfill 2020
+	\item Rising Star in Machine Learning (University of Maryland) \hfill {2019--}
+	\item Google PhD Fellowship in Machine Learning (\$$35{,}000$ + Tuition and Fees) \hfill {2019--}
+	\item Google sponsored talk award at New York Academy of Sciences ML Symposium \hfill March 2018
+	\item Open Philanthropy Project AI Fellowship, Finalist \hfill February 2018
+	\item Conference Travel Awards (ICML 2018, NeurIPS 2017, ICLR 2017)
+	\item Microsoft Azure Research Award ($\$20$K Azure Credit) \hfill November 2016 -- November 2017
+	\item Columbia University Dean Fellowship (Full Funding) \hfill August 2014 -- Present 
+	\item Cornell Institute for African Development Fellowship (Full Tuition) \hfill August 2013 -- May 2013
+	\item Pathfinder Foundation Scholarship (\EUR$60$K to study abroad) \hfill 2007 -- 2011
+	\item Senegalese Government Excellence Scholarship \hfill 2006 -- 2010
+	\item Laureate du Concours General (Senegalese Olympiad, Philosophy) \hfill July 2006
+\end{itemize}
+
+\section*{Professional Service \& Leadership}
+
+\subsection*{Founder}
+\begin{itemize}
+	\item The Africa I Know\textsuperscript{\textregistered} \hfill May 2020 -- Present\\
+	An organization whose mission is to positively change the narrative about Africa by publishing successful African stories, 
+	promoting STEM fields and providing opportunities to young Africans.\\
+	\url{https://theafricaiknow.org}
+\end{itemize}
+
+\subsection*{Area Chairing}
+\begin{itemize}
+	\item Women in Machine Learning Workshop, collocated with NeurIPS \hfill 2019
+	\item Black in AI Workshop, collocated with NeurIPS \hfill 2019
+\end{itemize}
+
+\subsection*{Journal Reviewing}
+\begin{itemize}
+	\item IEEE Transactions on Pattern Analysis and Machine Intelligence \hfill 2020
+	\item IEEE Transactions on Neural Networks and Learning Systems \hfill 2018
+	\item Foundations and Trends in Machine Learning \hfill 2016
+\end{itemize}
+
+\subsection*{Conference Reviewing}
+\begin{itemize}
+	\item Conference on Empirical Methods in Natural Language Processing (EMNLP) \hfill 2019
+	\item Association for Uncertainty in Artificial Intelligence (UAI) \hfill 2019
+	\item Association for the Advancement of Artificial Intelligence (AAAI) \hfill 2019
+	\item Artificial Intelligence and Statistics (AISTATS) \hfill 2018
+	\item International Conference on Learning Representations (ICLR) \hfill 2018
+	\item International Conference on Machine Learning (ICML) \hfill 2017, 2018
+	\item Neural Information Processing Systems (NeurIPS) \hfill 2016, 2017, 2018, 2019, 2020
+\end{itemize}
+
+\subsection*{Workshop Reviewing}
+\begin{itemize}
+	\item Workshop on Invertible Neural Networks and Normalizing Flows, ICML \hfill 2020
+	\item Workshop on Practical Machine Learning for the Developing World, ICLR  \hfill 2020
+	\item Methods for Optimizing and Evaluating Neural Language Generation Workshop \hfill 2019
+	\item Advances in Approximate Bayesian Inference Workshop  \hfill 2018
+	\item Black in AI Workshop \hfill 2018
+\end{itemize}
+
+\subsection*{Professional Membership}
+\begin{itemize}
+	\item Association for Computing Machinery
+	\item Association for Women in Mathematics
+	\item Bernoulli Society 
+	\item Institute for Mathematical Statistics
+	\item American Statistical Association
+\end{itemize}
+
+\subsection*{Workshop \& Symposium Organization}
+\begin{itemize}	
+	\item Learning Meaningful Representations of Life -- NeurIPS \hfill 2020\\
+	        \url{https://www.lmrl.org/2020-organizers}
+	\item Machine Learning in the Physical Sciences -- NeurIPS \hfill 2020\\
+	        \url{https://ml4physicalsciences.github.io/2020/}
+	\item Symposium on Advances in Approximate Bayesian Inference \hfill 2020\\
+		\url{http://approximateinference.org/}
+	\item Deep Generative Models for Highly Structured Data -- ICLR \hfill 2019\\
+		\url{https://deep-gen-struct.github.io/}
+	\item Symposium on Advances in Approximate Bayesian Inference \hfill 2019\\
+		\url{http://approximateinference.org/}
+\end{itemize}
+
+\subsection*{Volunteering}
+\begin{itemize}
+	\item Advisor -- Science Meets Engineering of Deep Learning Workshop (SEDL), NeurIPS \hfill 2019
+        \item Deep Learning Indaba Awards Committee \hfill 2019
+	\item Mentor -- Mentorship Roundtable -- Women in Machine Learning Workshop (WiML) \hfill 2017
+	\item Student Volunteer -- International Conference on Learning Representations (ICLR) \hfill 2017
+\end{itemize}
+
+\subsection*{Student Mentorship}
+\begin{itemize}
+	\item Samarth Sinha, University of Toronto \hfill{2019--2020}
+\end{itemize}
+
+
+\section*{Teaching}
+\begin{itemize}
+	\item Teaching Assistant, Columbia University\\
+	Statistical Machine Learning \hfill Spring 2019
+	\item Teaching Assistant, Columbia University\\
+	Advanced Data Analysis \hfill Fall 2017
+	\item Teaching Assistant, Columbia University\\
+	Statistical Methods for Finance \hfill Spring 2016
+	\item Teaching Assistant, Columbia University\\
+	Probability and Statistics for Data Science \hfill Fall 2015
+	\item Teaching Assistant, Columbia University\\
+	Linear Regression Models \hfill Spring 2015
+	\item Teaching Assistant, Columbia University\\
+	Probability \hfill Fall 2014
+\end{itemize}
+
+\section*{Communication Skills}
+\begin{itemize}
+	\item Human Languages: Wolof(Native), French(Native), English(Fluent).
+	\item Machine Languages: Python (Pytorch, Tensorflow, Numpy, Scipy, PySpark), R(Stan), C\#, Java, SQL.
+	\item Big Data Technologies: AWS, Azure.
+	\item Version Control: Git, SVN.
+\end{itemize}
+
+
+\bigskip
+
+%\iffalse
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+  \end{footnotesize}
+\end{center}
+%\fi
+\end{document}
