@@ -6,6 +6,34 @@
 
 ## Communication
 
+# Lab Roles
+
+## 2022-23 Academic Year Assignments
+
+Birthday Chair: Andre
+Wiki Chair: Andrea
+Socials Chair: Constance
+Cluster Chair: Abib
+Food Chair: Cindy
+YouTube Chair: Jenny
+Twitter: Liyi and Daniel
+
+## Birthday Chair
+
+## Wiki Chair
+
+This person is responsible for maintaining and updating the lab wiki (this document) throughout the year, and adding to it as needed. 
+
+## Socials Chair
+
+## Cluster Chair
+
+## Food Chair
+
+## YouTube Chair
+
+## Twitter Chair
+
 # Thriving in Graduate School
 
 These topics are generally related to how to have a great graduate school experience. 
