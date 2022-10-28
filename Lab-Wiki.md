@@ -1,7 +1,5 @@
 # Lab Policies
 
-blah
-
 ## Confidentiality
 
 ## External Collaborations
@@ -84,7 +82,7 @@ If you feel you do not understand a particular paper or article, feel free to po
 
 ## Academic Twitter
 
-Please follow the Vertaix Twitter account at: https://twitter.com/Vertaix_.
+Please follow the Vertaix Twitter account at: https://twitter.com/Vertaix_ 
 
 Some additional Twitter accounts that would be good to follow are listed below. 
 
