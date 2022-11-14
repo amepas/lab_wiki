@@ -11,12 +11,12 @@
 ## 2022-23 Academic Year Assignments
 
 Birthday Chair: Andre
-Wiki Chair: Andrea
+Wiki Chair: Daniel
 Socials Chair: Constance
 Cluster Chair: Abib
 Food Chair: Cindy
 YouTube Chair: Jenny
-Twitter: Liyi and Daniel
+Twitter: Liyi
 
 ## Birthday Chair
 
