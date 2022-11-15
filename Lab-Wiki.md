@@ -9,15 +9,15 @@
 # Lab Process for projects
 
 1. Start a GitHub repository: 
--Add the supervisor and collaborators on the project
--Update this repo with code and push to it as the project progresses
+- Add the supervisor and collaborators on the project
+- Update this repo with code and push to it as the project progresses
 2. Start an Overleaf file:
--Share it with the supervisor and collaborators on the project
--Add the initial "project roadmap" to it: a set of todos to complete the project
+- Share it with the supervisor and collaborators on the project
+- Add the initial "project roadmap" to it: a set of todos to complete the project
 3. Start a Slack channel:
--Add the supervisor and collaborators on the project
--Bookmark the GitHub repo and the Overleaf on the channel for easy access
--Keep the channel alive with discussions (questions, comments, link to a ref you find     interesting)
+- Add the supervisor and collaborators on the project
+- Bookmark the GitHub repo and the Overleaf on the channel for easy access
+- Keep the channel alive with discussions (questions, comments, link to a ref you find     interesting)
 
 # Lab Roles
 
