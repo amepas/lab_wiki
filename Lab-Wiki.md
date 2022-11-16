@@ -99,30 +99,30 @@ Please follow the [Vertaix Twitter](https://twitter.com/Vertaix_) account.
 
 Some additional Twitter accounts that would be good to follow are listed below. 
 
-# Creating a Website
+## Creating a Website
 
 If you would like to create your own academic website, you can use the template from Jon Barron's website. Once you have created/logged in your github accunt, you are encouraged to follow the steps below:
 
-## Step 1: Fork the repository template
+### Step 1: Fork the repository template
 This action allows you to save the website template amidst your personal public repositories. While forking the template, you are allowed to enter your preferred repository name and an optional description for the website. It is advisable to attribute the name according to the following format **persweb**.github.io (Where **persweb** corresponds to the GitHub username used for the purpose of this tutorial). 
 
-## Step 2: Make the website publishable 
+### Step 2: Make the website publishable 
 The next step is making sure the website is publishable as a GitHub page. This is achieved by modifying the **Pages** subsection from the **Settings** sections.
 Within the **Pages** subsections, adjusting the branch from **None** to **Master** will result in creating a live website directory from the master branch of the forked website template that had been created. Waiting a few minutes, a link to your personal website will be created. In our case, the following notice will be displayed: **Your site is live at** https://persweb.github.io/ 
 
-## Step 3: Edit the website details
+### Step 3: Edit the website details
 Upon completion of the previous step, the website is released as a GitHub page. Subsequently, one could apply some changes to the README.md file. Also, the website description and link can be added by **editing repositories details** from the **About section** of the forked template. Now, further changes can be made from the main branch of the source code in order to edit the content that will be displayed on the website.
 
-## Step 4: Edit the source code
+### Step 4: Edit the source code
 This is the step that might take longer to complete and thanks to this it is possible to customize the website according to one’s personal profile. Changes are applied by editing the code source from the **index.html** file. In addition to modifying the name and the biography to be displayed on the website, the template suggests adding a link to one’s email address, CV/Resume, Google Scholar profile, Twitter account, LinkedIn, Github, and/or a short bio. 
 Prior to doing this, it is necessary to upload into the **data** and **images** folders, the CV/Resume as well as all the images that be displayed on the the website.
 A typical academic website might be constituted of the following sections:  **News, Invited Talks, Research (Publications), Academic Services, Teaching and Outreach.** More sections can be added (or deleted) depending on the information one wants to be displayed on the website.
 Although not mandatory, the **stylesheet.css** file can be edited as well according to the styles willing to be shown on the website. Additionally, the **mipnerf** and **mipnerf360** folders could also be exploited for style purposes.
 
-## Step 5: Add a link to Jon Barron’s website
+### Step 5: Add a link to Jon Barron’s website
 This is the last step to be done. It is not advisable to scrap the HTML code from the deployed instance at http://jonbarron.info. Using the GitHub code is sufficient for setting up your personal academic website.
 
-## Step 6: Share your website 
+### Step 6: Share your website 
 You know that your academic website is ready to be published when you are completely satisfied with all the adjustments. Now you can share the link to your website with your network. 
 
 ## Delivering Presentations
