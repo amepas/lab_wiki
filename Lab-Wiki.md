@@ -151,6 +151,48 @@ After getting started, a day-to-day procedure will typically look like:
         - Here it prompts password. This is personal access token (accessible from GitHub website), not GitHub login password.
 4. Run programs.
 
+## Getting Started
+### Request Project Disk Space
+This is achieved via the computer science website here : https://csguide.cs.princeton.edu/cs_request_forms_project
+### Install Anaconda 
+1. The clusters use the Linux system. Here is the installation guide for Anaconda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
+2. This link will give you the Anaconda installer. Put the installer on the cluster*. Then, follow steps in the link above.
+3. After Anaconda installation, add the path to conda into variable $PATH. To do this, type: echo 'export PATH=/path/to/anaconda3/bin:$PATH' >> ~/.bashrc
+4. In case the cluster does not use bash by default, type: exec bash
+*: Since Anaconda is large (~5G), to put it on the cluster, an idea is to request a project space and put Anaconda (and installer) in there. Activities in other project disk spaces can also use this Anaconda.
+
+### Run a Program
+Now the clusters are ready to use. We will often use slurm to run programs. To run one file:
+1. Prepare a slurm file `job.slurm`
+    - Guide on how to create a slurm script: https://researchcomputing.princeton.edu/support/knowledge-base/slurm
+2. Navigate to the folder in cluster (following section 1).
+3. Upload `job.slurm` to the folder in cluster (see section 3.2).
+4. Type `sbatch -A vertaix job.slurm`. -A vertaix means using Vertaix machines. If not using Vertaix machines, remove ‘-A vertaix’.
+5. However, replacing point 4 above, a better way is to do `python -A vertaix sweep.py`. The `sweep.py` file has a slurm script as a Python string inside, along with other functions that submit multiple slurm scripts with different hyperparameters. This way allows one to run many machines simultaneously. 
+    - Guide on how to create something like the [`sweep.py`](http://sweep.py) script is to be finished…
+
+## Other Relevant Things
+### Virtual Environment
+To create, activate, and deactivate a conda virtual environment, type:
+
+`conda create -n [envname] python**=**x.x anaconda`
+
+`conda activate [envname]`
+
+`conda deactivate`
+
+### Upload to and Download from the Clusters
+
+This section outlines how to upload and download things from the cluster.
+
+1. Prepare Terminal locally (not in the cluster)
+2. Upload
+    - File(s), type `scp path/to/my_file_1 ... path/to/my_file_n [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/`
+        - The `path/to/my_file_i` are separated by a space each
+    - Folder, type `scp -r path/to/my_folder/ [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/`
+        - Now `my_folder/` and its contents are inside the folder `to/`. This command also creates `to/` if `to/` was not already there. 
+3. Download, similarly: `scp -r [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/ path/to/`; `scp [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/my_file path/to/`
+
 ## Vertaix Cluster & Computing Resources
 
 ## Libraries
