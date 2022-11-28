@@ -91,11 +91,40 @@ For support on writing, especially academic or scientific writing, Princeton has
 ### Style guidelines for paper writing
 This is a brief list of points to remember when writing scientific papers. They are guidelines, not hard rules; there will always be exceptions.
 
-- make sure bib entries are consistent and correct. preferred style is [Author, Title, Venue, Year] with optional [Vol, Page] if it's a journal.
-- bib entry for conferences is @inproceedings with just "International Conference on Blah" (drop the "Proceedings of the 8th Annual" junk)
-- bib entry for journals is @article. drop publisher garbage.
-- use \citet when referring to a paper as a noun
-- order the citations appropriately (i.e. alphabetical or chronological depending on bibstyle)
+- Make sure bib entries are consistent and correct. preferred style is **[Author, Title, Venue, Year]** with optional **[Vol, Page]** if it is a journal.
+- Bib entry for conferences is **@inproceedings** with just "International Conference on Blah" (drop the "Proceedings of the 8th Annual" junk)
+- Bib entry for journals is **@article**. drop publisher garbage.
+- Use **\citet** when referring to a paper as a noun.
+- Order the citations appropriately (i.e. alphabetical or chronological depending on bibstyle)
+- Equations are part of the sentence, so they always need punctuation after and never get a new paragraph
+- Don't start a sentence with math. e.g. never say **"$\alpha$ is ..."**; instead, say **"The hyperparameter $\alpha$..."**
+- Every symbol has a human-understandable name
+- Don't break up a single equation into multiple lines. even try keeping inline symbols close: `hyperparameter~$\alpha$`
+- Use cref (cleveref package)
+- Period after parhead
+- Consistent section header capitalization
+- If you have 1 subsection, you must have 2
+- Scrutinize all adjectives. imagine for instance:
+    - adjectives cost $100
+    - adverbs cost $500
+    - weasel words cost $1000
+- Don't subjectively describe related work; e.g. other work is not *"unnatural"* (this also is an unnecessary adjective). if you write it, think about why it's true, write that down, then delete the adjective because you've just explained it better than an adjective.
+- same goes for saying you are the *"first"* to do something: that's a sort of extrinsic motivation. This is important because it solves a problem which is important, not because you did it before anyone else was able to do it.
+- Ban "to the best of our knowledge" and its ilk
+- Avoid things like "we note that" -- just say what you mean instead. this is a flag to restructure the sentence to say it clearly.
+- Limit orphaned words at the end of a paragraph. i.e. try not to have just 1 or 2 words on their own line at the end of a paragraph (it does give you a nice randomized treatment of forcing you to say your point more concisely). apparently you can end a paragraph by doing `~\looseness=-1` and it will do this for you??
+- Avoid using the word *"our"* like "our method" "our approach" --- it implies ownership and sounds like you're a kindergartener who can't share. often **"our"** can be replaced by **"the".**
+- Avoid the phrase "real-world" when possible-- we argued over this a lot. Basically think of "real-world" as costing $10. may be necessary, but often it's spurious.
+- Clearly articulate the contributions of the paper
+- Make sure white space is beautiful on everything-- fonts, equations, etc. spurious white space looks ugly and conveys a poor paper
+- No margin overflow on equations and figures
+- Captions on figures should start with the punchline, not a detailed description of the figure: "Figure 1. The IRT and OSFT outperform other methods when controlling for FDR. red=IRT, blue=OSFT,...."
+- Captions regarding results should have a short ending like **higher is better.**
+- Figure fonts and font sizes should be consistent and beautiful
+- Empirical studies should state clearly i) questions ii) data iii) methods iv) results in easy-to-find style
+- Prefer *goodisms* to *bestisms.* You do not need to argue that your method is the best possible thing. it's a thing, and it's good, here's why.
+- Easy-to-follow sentences put expected things at the beginning and new things at the end. "In addition to being model-agnostic, the method is also computationally efficient" >> "The method is also computationally efficient, in addition to being model-agnostic."
+- You missed a reference. Always take a last chance to go over related work and find it.
 
 
 ## Learning
