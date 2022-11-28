@@ -142,13 +142,13 @@ Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud
 After getting started, a day-to-day procedure will typically look like:
 
 1. ssh into the clusters
-    a. Type `ssh [uni]@cycles.cs.princeton.edu`
-    b. Type CS account password and duo factor as the window requests
+    - Type `ssh [uni]@cycles.cs.princeton.edu`
+    - Type CS account password and duo factor as the window requests
 2. Now you are in the clusters, to navigate to your disk space,
-    a. Type `cd ../../n/fs/[disk name]`
+    - Type `cd ../../n/fs/[disk name]`
 3. Treat this as your own folder. Clone GitHub repository, if needed:
-    a. Type `git clone [repo https]`
-        i. Here it prompts password. This is personal access token (accessible from GitHub website), not GitHub login password.
+    - Type `git clone [repo https]`
+        - Here it prompts password. This is personal access token (accessible from GitHub website), not GitHub login password.
 4. Run programs.
 
 ## Vertaix Cluster & Computing Resources
