@@ -83,9 +83,20 @@ Some tools/ideas you can take advantage of for productivity are the following:
 
 This section includes a number of helpful resources that you can use throughout your time at Princeton. 
 
-## Writing Help
+## Writing
+### Princeton Writing Center
 
-For support on writing, especially academic or scientific writing, Princeton has a great resource called the Writing Center which is here to support you by providing workshops and opportunities to get feedback on your writing. For more information, please visit their website: https://writing.princeton.edu/ 
+For support on writing, especially academic or scientific writing, Princeton has a great resource called the Writing Center which is here to support you by providing workshops and opportunities to get feedback on your writing. For more information, please visit their website: https://writing.princeton.edu/
+
+### Style guidelines for paper writing
+This is a brief list of points to remember when writing scientific papers. They are guidelines, not hard rules; there will always be exceptions.
+
+- make sure bib entries are consistent and correct. preferred style is [Author, Title, Venue, Year] with optional [Vol, Page] if it's a journal.
+- bib entry for conferences is @inproceedings with just "International Conference on Blah" (drop the "Proceedings of the 8th Annual" junk)
+- bib entry for journals is @article. drop publisher garbage.
+- use \citet when referring to a paper as a noun
+- order the citations appropriately (i.e. alphabetical or chronological depending on bibstyle)
+
 
 ## Learning
 
@@ -158,7 +169,7 @@ This is achieved via the computer science website here : https://csguide.cs.prin
 1. The clusters use the Linux system. Here is the installation guide for Anaconda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
 2. This link will give you the Anaconda installer. Put the installer on the cluster*. Then, follow steps in the link above.
 3. After Anaconda installation, add the path to conda into variable $PATH. To do this, type: echo 'export PATH=/path/to/anaconda3/bin:$PATH' >> ~/.bashrc
-4. In case the cluster does not use bash by default, type: exec bash
+4. In case the cluster does not use bash by default, type: exec bash.
 *: Since Anaconda is large (~5G), to put it on the cluster, an idea is to request a project space and put Anaconda (and installer) in there. Activities in other project disk spaces can also use this Anaconda.
 
 #### Run a Program
