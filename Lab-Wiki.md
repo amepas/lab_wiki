@@ -133,12 +133,12 @@ A Curriculum Vitae (CV) is a document that summarizes all of your prior academic
 
 ## Conferences & Workshops
 
-# Computing: A Practical Guide
+## Computing ressources: A Practical Guide
 
 This section describes all things related to coding within the lab. The Vertaix Github repository can be found here: https://github.com/vertaix
 Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. This tutorial discusses how to use the Ionic clusters provided by the computer science department.
 
-## Framework
+### Framework
 After getting started, a day-to-day procedure will typically look like:
 
 1. ssh into the clusters
@@ -151,17 +151,17 @@ After getting started, a day-to-day procedure will typically look like:
         - Here it prompts password. This is personal access token (accessible from GitHub website), not GitHub login password.
 4. Run programs.
 
-## Getting Started
-### Request Project Disk Space
+### Getting Started
+#### Request Project Disk Space
 This is achieved via the computer science website here : https://csguide.cs.princeton.edu/cs_request_forms_project
-### Install Anaconda 
+#### Install Anaconda 
 1. The clusters use the Linux system. Here is the installation guide for Anaconda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
 2. This link will give you the Anaconda installer. Put the installer on the cluster*. Then, follow steps in the link above.
 3. After Anaconda installation, add the path to conda into variable $PATH. To do this, type: echo 'export PATH=/path/to/anaconda3/bin:$PATH' >> ~/.bashrc
 4. In case the cluster does not use bash by default, type: exec bash
 *: Since Anaconda is large (~5G), to put it on the cluster, an idea is to request a project space and put Anaconda (and installer) in there. Activities in other project disk spaces can also use this Anaconda.
 
-### Run a Program
+#### Run a Program
 Now the clusters are ready to use. We will often use slurm to run programs. To run one file:
 1. Prepare a slurm file `job.slurm`
     - Guide on how to create a slurm script: https://researchcomputing.princeton.edu/support/knowledge-base/slurm
@@ -171,17 +171,15 @@ Now the clusters are ready to use. We will often use slurm to run programs. To r
 5. However, replacing point 4 above, a better way is to do `python -A vertaix sweep.py`. The `sweep.py` file has a slurm script as a Python string inside, along with other functions that submit multiple slurm scripts with different hyperparameters. This way allows one to run many machines simultaneously. 
     - Guide on how to create something like the [`sweep.py`](http://sweep.py) script is to be finished…
 
-## Other Relevant Things
-### Virtual Environment
+### Other Relevant Things
+#### Virtual Environment
 To create, activate, and deactivate a conda virtual environment, type:
 
 `conda create -n [envname] python**=**x.x anaconda`
-
 `conda activate [envname]`
-
 `conda deactivate`
 
-### Upload to and Download from the Clusters
+#### Upload to and Download from the Clusters
 
 This section outlines how to upload and download things from the cluster.
 
@@ -192,8 +190,6 @@ This section outlines how to upload and download things from the cluster.
     - Folder, type `scp -r path/to/my_folder/ [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/`
         - Now `my_folder/` and its contents are inside the folder `to/`. This command also creates `to/` if `to/` was not already there. 
 3. Download, similarly: `scp -r [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/ path/to/`; `scp [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/my_file path/to/`
-
-## Vertaix Cluster & Computing Resources
 
 ## Libraries
 
