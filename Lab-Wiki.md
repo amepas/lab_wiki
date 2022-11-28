@@ -122,10 +122,11 @@ This is a brief list of points to remember when writing scientific papers. They 
 - Captions regarding results should have a short ending like **higher is better.**
 - Figure fonts and font sizes should be consistent and beautiful
 - Empirical studies should state clearly i) questions ii) data iii) methods iv) results in easy-to-find style
-- Prefer *goodisms* to *bestisms.* You do not need to argue that your method is the best possible thing. it's a thing, and it's good, here's why.
-- Easy-to-follow sentences put expected things at the beginning and new things at the end. "In addition to being model-agnostic, the method is also computationally efficient" >> "The method is also computationally efficient, in addition to being model-agnostic."
+- Prefer **goodisms** to **bestisms.** You do not need to argue that your method is the best possible thing. it's a thing, and it's good, here's why.
+- Easy-to-follow sentences put expected things at the beginning and new things at the end. "In addition to being model-agnostic, the method is also computationally efficient" >> **"The method is also computationally efficient, in addition to being model-agnostic."**
 - You missed a reference. Always take a last chance to go over related work and find it.
 
+Furthermore, additional tips on writing paper rebuttals can be found here: https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1
 
 ## Learning
 
