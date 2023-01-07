@@ -128,6 +128,21 @@ This is a brief list of points to remember when writing scientific papers. They 
 
 Furthermore, additional tips on writing paper rebuttals can be found here: https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1
 
+## Learning ressources
+
+### Getting to speed in Materials Science
+1. Introduction to Materials Science and Engineering : https://www.youtube.com/channel/UCRFAeCBIRZrY8YcuLomFU1g/playlists
+
+### Getting to speed in Deep Learning
+
+### Getting to speed in Geometric Deep Learning
+
+### Getting to speed in Large Language Model 
+
+Continuously learning and staying up to date with the most recent advancements in the field is a must in a successful research lab. There are a number of different ways to learn, but one would be regularly reading recent papers (such as those posted on academic Twitter accounts listed below). 
+
+If you feel you do not understand a particular paper or article, feel free to post about it in the Vertaix lab Slack workspace for a discussion with other lab members.
+
 ## Learning
 
 Continuously learning and staying up to date with the most recent advancements in the field is a must in a successful research lab. There are a number of different ways to learn, but one would be regularly reading recent papers (such as those posted on academic Twitter accounts listed below). 
