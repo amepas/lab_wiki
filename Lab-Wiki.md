@@ -126,28 +126,61 @@ This is a brief list of points to remember when writing scientific papers. They 
 - Easy-to-follow sentences put expected things at the beginning and new things at the end. "In addition to being model-agnostic, the method is also computationally efficient" >> **"The method is also computationally efficient, in addition to being model-agnostic."**
 - You missed a reference. Always take a last chance to go over related work and find it.
 
-Furthermore, additional tips on writing paper rebuttals can be found here: https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1
+Furthermore, additional tips on writing paper rebuttals can be found at: 
+- https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1
+- https://docs.google.com/document/d/1pU9xLLCQI4X_Uaw_MTwjdIyCLuGQ4ojWP_9dkFqxdvI/edit
+- Harvard CS197: AI Research Experiences : https://www.cs197.seas.harvard.edu/ (This course is highly recommended. All the materials are available online. The course covers a lot of things needed to be effective at doing research but not taught in classes)
 
 ## Learning ressources
 
 ### Getting to speed in Materials Science
-1. Introduction to Materials Science and Engineering : https://www.youtube.com/channel/UCRFAeCBIRZrY8YcuLomFU1g/playlists
+- [Material Science](https://www.youtube.com/playlist?list=PLDYTMDdLx1U3mdYhwCNGDjuFz2-b8I9oW). A great course to start with if new at Materials Science. Most of the complex topics are successfully summarized. 
+- [Introduction to Solid State Chemistry](https://www.edx.org/course/introduction-to-solid-state-chemistry). This course has no prerequisites in Chemistry. It only requires background in calculus.
+- [Introduction to Materials Science and Engineering](https://www.youtube.com/channel/UCRFAeCBIRZrY8YcuLomFU1g/playlists). This series cover important topics on Crystallography 
+- [From Atoms to Materials: Predictive Theory and Simulations](https://www.edx.org/course/from-atoms-to-materials-predictive-theory-and-simu?index=product&queryID=2d191042d2ac15c59cedb77d70073977&position=1). This course covers basics of molecular dynamics, DFT, etc
+- [Basics of molecular dynamics](https://youtu.be/ipRnvs7_CxA), a youtube series
+- [MRS 2021 Fall Meeting Tutorial: Symmetry-Aware Neural Networksfor the Materials Science with e3nn](https://e3nn.org/e3nn-tutorial-mrs-fall-2021/)
+- [Introduction to Materials Science & Engineering 2020](https://www.youtube.com/playlist?list=PLL0SWcFqypCm4xCn64xO7RS62PPzy-oP8)
+- [Computational Methods in Chemistry and Biophysics](https://github.com/paulrobustelli/CHEM101.6). Zuckerman's "Statistical Physics of Biomolecules" is utilized as primary textbook for this course.
+- [Fundamentals and applications of density functional theory](https://youtu.be/SXvhDLCycxc)
 
 ### Getting to speed in Deep Learning
+- [Machine Learning 1](https://m.youtube.com/playlist?list=PL8FnQMH2k7jzhtVYbKmvrMyXDYMmgjj_n). This is a course that is part of the Artificial Intelligence Master program at the University of Amsterdam.
+- [Neural Networks: Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) from Andrej Karpathy
+- [Fondations of Deep Learning](https://www.youtube.com/watch?v=6Nctj1GCFVo&list=PLHgjs9ncvHi80UCSlSvQe-TK_uOyDv_Jf&ab_channel=SoheilFeizi) by by Soheil Feizi
+- [Pen and Paper Exercises in Machine Learning](https://arxiv.org/abs/2206.13446)
+- [Reinforcement Learning](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021) by DeepMind
+- [Tutorial on Denoising Diffusion-based Generative Modeling: Foundations and Applications](https://youtu.be/cS6JQpEY9cs)
+- [Summer school on Statistical Physics & Machine learning](https://leshouches2022.github.io/)
+- [Deep Learning Systems](https://www.youtube.com/@deeplearningsystemscourse1116/videos)course. The course website : https://dlsyscourse.org
+- [Deep Multi-Task and Meta Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rMC6zfYmnD7UG3LVvwaITY5) 
+
 
 ### Getting to speed in Geometric Deep Learning
+- [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478) : Covers symmetry groups, lie groups, euclidean groups, etc. The course website is : https://geometricdeeplearning.com/lectures/ 
+- [Frederic Schuller](https://www.youtube.com/c/FredericSchuller/playlists) youtube channel covers lectures on both Quantum Theory and Geometrical Anatomy of Theoretical Physics
+- GFlowNets ressources : https://github.com/zdhNarsil/Awesome-GFlowNets
+- [Stanford Graph Learning Workshop 2022](http://snap.stanford.edu/graphlearning-workshop-2022/)
 
-### Getting to speed in Large Language Model 
 
-Continuously learning and staying up to date with the most recent advancements in the field is a must in a successful research lab. There are a number of different ways to learn, but one would be regularly reading recent papers (such as those posted on academic Twitter accounts listed below). 
 
-If you feel you do not understand a particular paper or article, feel free to post about it in the Vertaix lab Slack workspace for a discussion with other lab members.
+### Getting to speed in Large Language Model
+- [Lecture notes on gradient explosing and vanishing](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf)
+- [Transformers](https://e2eml.school/transformers.html) from scratch
 
-## Learning
+### Other Learning ressources
+- The youtube channel by [Steve Brunto](https://www.youtube.com/@Eigensteve). Many courses on various topics of interest to Vertaix are covered by Steve Brunto. For example Partial differential equations (https://youtu.be/pvrIagjEk4c)
+- List of educational ressources currated by Deepmind : https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf
+- [AI4Science101’s documentation](https://ai4science101.readthedocs.io/en/devel/index.html)
+- [Introduction to Biology - The Secret of Life](https://www.edx.org/course/introduction-to-biology-the-secret-of-life-3)
+- [Tutorial on compression in ML](https://drive.google.com/drive/folders/1hIpZEh342rN8PzvdBBIfu655yjSAqwwu)
+- NeurIPS tutorials on various subjects: https://neurips.cc/virtual/2022/events/tutorial
+- Uncertain: modern topics in uncertainty estimation: https://uncertaintyclass.com/
 
-Continuously learning and staying up to date with the most recent advancements in the field is a must in a successful research lab. There are a number of different ways to learn, but one would be regularly reading recent papers (such as those posted on academic Twitter accounts listed below). 
-
-If you feel you do not understand a particular paper or article, feel free to post about it in the Vertaix lab Slack workspace for a discussion with other lab members. 
+### Courses at Princeton
+- [Special Topics in Information Sciences and Systems: Theory of Deep Weakly Supervised Learning](https://registrar.princeton.edu/course-offerings/course-details?term=1232&courseid=002542)
+- Potential undergraduate courses to consider : https://materials.princeton.edu/education/undergraduate/program-courses
+- Potential graduate courses to consider : https://materials.princeton.edu/education/graduate/graduate-courses
 
 ## Academic Twitter
 
