@@ -32,20 +32,26 @@ YouTube Chair: Jenny
 Twitter: Liyi
 
 ## Birthday Chair
+The Birthday Chair is responsible 
 
 ## Wiki Chair
 
-This person is responsible for maintaining and updating the lab wiki (this document) throughout the year, and adding to it as needed. 
+The Wiki Chair is responsible for maintaining and updating the lab wiki (this document) throughout the year, and adding to it as needed. 
 
 ## Socials Chair
 
+
 ## Cluster Chair
 
+
 ## Food Chair
+The food chair orders lunch for everyone during the weekly group meetings. 
 
 ## YouTube Chair
-
+The Youtube Chair is responsible of major lab communication via Youtube. 
 ## Twitter Chair
+
+The Twitter Chair is responsible of the lab communication on twitter. Tweets from the Vertaix account will be about published research, blog posts from the website, announcing research talks by Vertaix members, courses to be taughts by the supervisor as well as software released on the Vertaix GitHub. 
 
 # Thriving in Graduate School
 
