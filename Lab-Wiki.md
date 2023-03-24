@@ -45,7 +45,14 @@ The Wiki Chair is responsible for maintaining and updating the lab wiki (this do
 
 
 ## Food Chair
-The food chair orders lunch for everyone during the weekly group meetings. 
+The food chair is reponsible for ordering lunch during the weekly group meetings. Orders are paid for online using the department card; contact Michael Estepp (mestepp@cs.princeton.edu) for the card information. Typically, a Slack message is sent out the day before or morning of the group meeting to ask for people's orders, and the food order is placed 1-2 hours in advance.
+
+Some tips:
+- When placing online orders, platforms like UberEats and DoorDash have a **group order** option that makes it easy for each person to add their own order 
+- Nearby restaurants (within 10 min walking distance) that are easy to order and pickup from: Tiger Noodles, Efes Mediterranean Grill, Taste of Mexico, Tomo Sushi, Thai Village, The Mint
+- There are a lot of great restaurants near Witherspoon and Palmer Square, which is about a 15 min walk. For large food orders it may be easier to order delivery or have someone come help you pick up the food.
+- Ordering pizza is a good backup option (for when a restaurant unexpectedly cancels an order). Papa Johns and Domino's are both fast delivery options.
+
 
 ## YouTube Chair
 The Youtube Chair is responsible of major lab communication via Youtube. 
