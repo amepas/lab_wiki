@@ -32,7 +32,7 @@ YouTube Chair: Jenny
 Twitter: Liyi
 
 ## Birthday Chair
-The Birthday Chair is responsible 
+The Birthday Chair is responsible for recording the birthdate of all lab members and make sure that each member's birthday is celebrated.
 
 ## Wiki Chair
 
