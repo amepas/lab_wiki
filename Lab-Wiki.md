@@ -28,7 +28,7 @@ Wiki Chair: Daniel
 Socials Chair: Constance
 Cluster Chair: Abib
 Food Chair: Cindy
-YouTube Chair: Jenny
+YouTube Chair: - 
 Twitter: Liyi
 
 ## Birthday Chair
@@ -58,7 +58,8 @@ Some tips:
 The Youtube Chair is responsible of major lab communication via Youtube. 
 ## Twitter Chair
 
-The Twitter Chair is responsible of the lab communication on twitter. Tweets from the Vertaix account will be about published research, blog posts from the website, announcing research talks by Vertaix members, courses to be taughts by the supervisor as well as software released on the Vertaix GitHub. 
+The Twitter Chair is responsible of the lab communication on twitter. Tweets from the Vertaix account will be about published research, blog posts from the website, announcing research talks by Vertaix members, courses to be taughts by the supervisor as well as software released on the Vertaix GitHub.
+Here are some example of better communication on twitter: [Deepmind](DeepMind https://twitter.com/DeepMind/status/1575101356964458496?s=20&t=k9Do9zxfBg4_ev1xmgXyhQ). Other model accounts are: [Google AI](https://twitter.com/GoogleAI), [Princeton University](https://twitter.com/Princeton) twitter account, [Quanta Magazine](https://twitter.com/QuantaMagazine)
 
 # Thriving in Graduate School
 
