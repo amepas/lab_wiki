@@ -300,8 +300,8 @@ To request a project disk space, fill in this form https://csguide.cs.princeton.
 - Install Python and Virtual Environments: 
 https://csguide.cs.princeton.edu/software/virtualenv
 
-Follow the instructions up to step 3 and add the Python path to  ~/.bashrc file:
-open and edit  ~/.bashrc file with vim for instance:
+Follow the instructions up to step 3 and add the Python path to  ```~/.bashrc``` file:
+open and edit  ```~/.bashrc``` file with vim for instance:
 ```bash
 vim ~/.bashrc
 ```
@@ -331,7 +331,7 @@ echo 'export PATH=/path/to/anaconda3/bin:$PATH' >> ~/.bashrc
 ```
 4. In case the cluster does not use bash by default, type: 
 ```bash
-exec bash.
+exec bash
 ```
 <!---*: Since Anaconda is large (~5G), to put it on the cluster, an idea is to request a project space and put Anaconda (and installer) in there. Activities in other project disk spaces can also use this Anaconda.--->
 
@@ -370,7 +370,8 @@ This section outlines how to upload and download things from the cluster.
         - The ```path/to/my_file_i``` are separated by a space each
     - Folder, type ```scp -r path/to/my_folder/ [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/```
         - Now ```my_folder/``` and its contents are inside the folder ```to/```. This command also creates ```to/``` if ```to/``` was not already there. 
-3. Download, similarly: `scp -r [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/ path/to/`; `scp [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/my_file path/to/`
+3. Download, similarly: ```scp -r [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/ path/to/```; 
+ ```scp [uni]@cycles.cs.princeton.edu:/n/fs/[disk name]/path/to/my_file path/to/```
 
 ## Libraries
 
