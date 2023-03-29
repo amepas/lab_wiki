@@ -261,7 +261,8 @@ mailing list mentioned at the top of that page. Without this step, you cannot be
 
 ### Framework
 
-This section describes all things related to coding within the lab.<!--- Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. ---> This tutorial discusses how to use the Ionic clusters provided by the computer science department.
+This section describes all things related to coding within the lab. This tutorial discusses how to use the Ionic clusters provided by the computer science department.
+<!--- Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’.  This tutorial discusses how to use the Ionic clusters provided by the computer science department.--->
 
 
 After getting started, a day-to-day procedure will typically look like:
@@ -270,14 +271,20 @@ After getting started, a day-to-day procedure will typically look like:
     <!--- Type `ssh [uni]@cycles.cs.princeton.edu`--->
     - Type
     ```bash
-    $ ssh NETID@cycles.cs.princeton.edu
+    ssh NETID@cycles.cs.princeton.edu
     ```
     - Type CS account password and duo factor as the window requests
-2. Now you are in the clusters, to navigate to your disk space,
-    - Type `cd ../../n/fs/[disk name]`
+2. Now, you are in the clusters, to navigate to your disk space,
+    - Type <!---`cd ../../n/fs/[disk name]` --->
+    ```bash
+    cd /n/fs/[project_name]
+    ```
 3. Treat this as your own folder. Clone GitHub repository, if needed:
     - Type `git clone [repo https]`
-        - Here it prompts password. This is personal access token (accessible from GitHub website), not GitHub login password.
+    ```bash
+    git clone [repo https]
+    ```
+    - Here it prompts password. This is personal access token (accessible from GitHub website), not GitHub login password.
 4. Run programs.
 
 ### Getting Started
@@ -334,9 +341,11 @@ Now the clusters are ready to use. We will often use slurm to run programs. To r
 #### Virtual Environment
 To create, activate, and deactivate a conda virtual environment, type:
 
-`conda create -n [envname] python**=**x.x anaconda`
-`conda activate [envname]`
-`conda deactivate`
+```bash
+conda create -n [envname] python**=**x.x anaconda`
+conda activate [envname]`
+conda deactivate`
+```
 
 #### Upload to and Download from the Clusters
 
