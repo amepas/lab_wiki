@@ -238,6 +238,9 @@ A Curriculum Vitae (CV) is a document that summarizes all of your prior academic
 
 ## Computing ressources: A Practical Guide
 
+At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. 
+Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]).
+
 ### Vertaix Cluster access
 
 Here is the basic documentation page on how the cluster (ionic) works, and how to work with it:
@@ -253,19 +256,24 @@ mailing list mentioned at the top of that page. Without this step, you cannot be
 
 3- Contact Cluster chair or Prof. Dieng so that they send an email with your new NetID, asking csstaff to add you to the Vertaix "account" on ionic.
 
-4- Some light technical details that might be useful to know: the ionic cluster uses the [Slurm scheduler](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fslurm.schedmd.com%2Fdocumentation.html&amp;data=05%7C01%7Caa0539%40princeton.edu%7Ca00f74106ee0416e764308daa6d7e88c%7C2ff601167431425db5af077d7791bda4%7C0%7C0%7C638005743515228608%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=cC%2BPbo7BZlOlnBlCcsO1wVC4lTwYX3XdyiHFl92oj00%3D&amp;reserved=0) , so the language around the cluster mostly follows the vernacular of that scheduler. The vertaix nodes are managed as a "partition" within the larger cluster, so it is possible to share them with non-vertaix users, as well as being able to use non-vertaix nodes for your work. Separate from the vertaix partition, the vertaix "account" is essentially an access list of people allowed to use the vertaix resources. Within that list, everyone shares the same priority on the nodes.
+4- Some light technical details that might be useful to know: the ionic cluster uses the [Slurm scheduler](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fslurm.schedmd.com%2Fdocumentation.html&amp;data=05%7C01%7Caa0539%40princeton.edu%7Ca00f74106ee0416e764308daa6d7e88c%7C2ff601167431425db5af077d7791bda4%7C0%7C0%7C638005743515228608%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=cC%2BPbo7BZlOlnBlCcsO1wVC4lTwYX3XdyiHFl92oj00%3D&amp;reserved=0), so the language around the cluster mostly follows the vernacular of that scheduler. The vertaix nodes are managed as a "partition" within the larger cluster, so it is possible to share them with non-vertaix users, as well as being able to use non-vertaix nodes for your work. Separate from the vertaix partition, the vertaix "account" is essentially an access list of people allowed to use the vertaix resources. Within that list, everyone shares the same priority on the nodes.
 
 
 ### Framework
 
-This section describes all things related to coding within the lab. The Vertaix Github repository can be found here: https://github.com/vertaix
-Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. This tutorial discusses how to use the Ionic clusters provided by the computer science department.
+This section describes all things related to coding within the lab.
+--Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. 
+This tutorial discusses how to use the Ionic clusters provided by the computer science department.
 
 
 After getting started, a day-to-day procedure will typically look like:
 
 1. ssh into the clusters
-    - Type `ssh [uni]@cycles.cs.princeton.edu`
+    -- Type `ssh [uni]@cycles.cs.princeton.edu`
+    - Type
+    ```bash
+    $ ssh NETID@cycles.cs.princeton.edu
+    ```
     - Type CS account password and duo factor as the window requests
 2. Now you are in the clusters, to navigate to your disk space,
     - Type `cd ../../n/fs/[disk name]`
