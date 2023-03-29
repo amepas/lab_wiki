@@ -42,7 +42,7 @@ The Wiki Chair is responsible for maintaining and updating the lab wiki (this do
 
 
 ## Cluster Chair
-
+The Cluster Chair is the contact person for the Vertaix cluster and responsible for getting new people access to the cluster.
 
 ## Food Chair
 The food chair is reponsible for ordering lunch during the weekly group meetings. Orders are paid for online using the department card; contact Michael Estepp (mestepp@cs.princeton.edu) for the card information. Typically, a Slack message is sent out the day before or morning of the group meeting to ask for people's orders, and the food order is placed 1-2 hours in advance.
