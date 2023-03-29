@@ -252,7 +252,7 @@ The most efficient way to get new people to the cluster is as follows:
 1- Make sure you have a CS Account. If you have a CS appointment, or are CS concentrators, you should already have a CS account or (in the case of undergrads) can request one. See this page for details:  https://csguide.cs.princeton.edu/accounts/new
 
 2- Make sure you have read the above-linked "clusters" page and, crucially, have joined the [beowulf]( https://lists.cs.princeton.edu/mailman/listinfo/beowulf)
-mailing list mentioned at the top of that page. Without this step, you cannot be granted further access to the cluster.
+mailing list. Without this step, you cannot be granted further access to the cluster.
 
 3- Contact Cluster chair or Prof. Dieng so that they send an email with your new NetID, asking csstaff to add you to the Vertaix "account" on ionic.
 
