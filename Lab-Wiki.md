@@ -325,8 +325,14 @@ Now, perform steps 4 and 5, and continue to Creating Virtual Environments and In
 #### Install Anaconda 
 1. The clusters use the Linux system. Here is the installation guide for Anaconda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
 2. This link will give you the Anaconda installer. Put the installer on the cluster*. Then, follow steps in the link above.
-3. After Anaconda installation, add the path to conda into variable $PATH. To do this, type: echo 'export PATH=/path/to/anaconda3/bin:$PATH' >> ~/.bashrc
-4. In case the cluster does not use bash by default, type: exec bash.
+3. After Anaconda installation, add the path to conda into variable ```$PATH```. To do this, type: 
+```bash
+echo 'export PATH=/path/to/anaconda3/bin:$PATH' >> ~/.bashrc
+```
+4. In case the cluster does not use bash by default, type: 
+```bash
+exec bash.
+```
 <!---*: Since Anaconda is large (~5G), to put it on the cluster, an idea is to request a project space and put Anaconda (and installer) in there. Activities in other project disk spaces can also use this Anaconda.--->
 
 #### Run a Program
