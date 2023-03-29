@@ -238,6 +238,25 @@ A Curriculum Vitae (CV) is a document that summarizes all of your prior academic
 
 ## Computing ressources: A Practical Guide
 
+### Vertaix Cluster access
+
+Here is the basic documentation page on how the cluster (ionic) works, and how to work with it:
+
+   https://csguide.cs.princeton.edu/resources/clusters
+
+The most efficient way to get new people to the cluster is as follows:
+
+1- Make sure you have a CS Account. If you have a CS appointment, or are CS concentrators, you should already have a CS account or (in the case of undergrads) can request one. See this page for details:  https://csguide.cs.princeton.edu/accounts/new
+
+2- Make sure you have read the above-linked "clusters" page and, crucially, have joined the [beowulf]
+mailing list mentioned at the top of that page. Without this step, you cannot be granted further access to the cluster.
+
+3- Contact Cluster chair or Prof. Dieng so that they send an email with your new NetID, asking csstaff to add you to the Vertaix "account" on ionic.
+
+4- Some light technical details that might be useful to know: the ionic cluster uses the Slurm scheduler [1], so the language around the cluster mostly follows the vernacular of that scheduler. The vertaix nodes are managed as a "partition" within the larger cluster, so it is possible to share them with non-vertaix users, as well as being able to use non-vertaix nodes for your work. Separate from the vertaix partition, the vertaix "account" is essentially an access list of people allowed to use the vertaix resources. Within that list, everyone shares the same priority on the nodes.
+
+
+
 This section describes all things related to coding within the lab. The Vertaix Github repository can be found here: https://github.com/vertaix
 Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. This tutorial discusses how to use the Ionic clusters provided by the computer science department.
 
