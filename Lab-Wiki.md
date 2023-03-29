@@ -256,11 +256,12 @@ mailing list mentioned at the top of that page. Without this step, you cannot be
 4- Some light technical details that might be useful to know: the ionic cluster uses the Slurm scheduler [1], so the language around the cluster mostly follows the vernacular of that scheduler. The vertaix nodes are managed as a "partition" within the larger cluster, so it is possible to share them with non-vertaix users, as well as being able to use non-vertaix nodes for your work. Separate from the vertaix partition, the vertaix "account" is essentially an access list of people allowed to use the vertaix resources. Within that list, everyone shares the same priority on the nodes.
 
 
+### Framework
 
 This section describes all things related to coding within the lab. The Vertaix Github repository can be found here: https://github.com/vertaix
 Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. This tutorial discusses how to use the Ionic clusters provided by the computer science department.
 
-### Framework
+
 After getting started, a day-to-day procedure will typically look like:
 
 1. ssh into the clusters
@@ -275,13 +276,43 @@ After getting started, a day-to-day procedure will typically look like:
 
 ### Getting Started
 #### Request Project Disk Space
-This is achieved via the computer science website here : https://csguide.cs.princeton.edu/cs_request_forms_project
+Generally, it is encouraged to request a disk space for each “project” to make long term planning, archiving, and expiration cleaner.
+
+To request a project disk space, fill in this form https://csguide.cs.princeton.edu/cs_request_forms_project
+
+
+#### Setting up your own project
+- Install Python and Virtual Environments: 
+https://csguide.cs.princeton.edu/software/virtualenv
+
+Follow the instructions up to step 3 and add the Python path to  ~/.bashrc file:
+open and edit  ~/.bashrc file with vim for instance:
+```bash
+$ vim ~/.bashrc
+```
+and add the Python path as follows:
+```bash
+#
+# To add/change something which is NOT a system default, put your changes HERE:
+#
+export PATH="/n/fs/project_name/python_dir/bin:$PATH"
+```
+then save and exit ~/.bashrc , finally
+```bash
+$ source ~/.bashrc
+```
+Note that ```/n/fs/project_name/python_dir/``` should be the same location previously specified by ```--prefix``` in step 2.
+
+
+Now, perform steps 4 and 5, and continue to Creating Virtual Environments and Installing a Package.
+
+
 #### Install Anaconda 
 1. The clusters use the Linux system. Here is the installation guide for Anaconda: https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
 2. This link will give you the Anaconda installer. Put the installer on the cluster*. Then, follow steps in the link above.
 3. After Anaconda installation, add the path to conda into variable $PATH. To do this, type: echo 'export PATH=/path/to/anaconda3/bin:$PATH' >> ~/.bashrc
 4. In case the cluster does not use bash by default, type: exec bash.
-*: Since Anaconda is large (~5G), to put it on the cluster, an idea is to request a project space and put Anaconda (and installer) in there. Activities in other project disk spaces can also use this Anaconda.
+--*: Since Anaconda is large (~5G), to put it on the cluster, an idea is to request a project space and put Anaconda (and installer) in there. Activities in other project disk spaces can also use this Anaconda.
 
 #### Run a Program
 Now the clusters are ready to use. We will often use slurm to run programs. To run one file:
