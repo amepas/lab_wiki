@@ -338,7 +338,8 @@ Now the clusters are ready to use. We will often use slurm to run programs. To r
 4. Type 
       ```bash
       sbatch -A vertaix job.slurm
-      ``` .
+      ```
+      
 ``` -A vertaix``` means using Vertaix machines. If not using Vertaix machines, remove ```-A vertaix```.
 5. However, replacing point 4 above, a better way is to do ```python -A vertaix sweep.py```. The ```sweep.py``` file has a slurm script as a Python string inside, along with other functions that submit multiple slurm scripts with different hyperparameters. This way allows one to run many machines simultaneously. 
     - Guide on how to create something like the [`sweep.py`](http://sweep.py) script is to be finished…
