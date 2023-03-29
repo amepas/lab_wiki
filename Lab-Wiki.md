@@ -239,7 +239,7 @@ A Curriculum Vitae (CV) is a document that summarizes all of your prior academic
 ## Computing ressources: A Practical Guide
 
 At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. 
-Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]).
+Computation often follows [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing).
 
 ### Vertaix Cluster access
 
