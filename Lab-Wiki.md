@@ -261,9 +261,7 @@ mailing list mentioned at the top of that page. Without this step, you cannot be
 
 ### Framework
 
-This section describes all things related to coding within the lab.
-<!--- Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. --->
-This tutorial discusses how to use the Ionic clusters provided by the computer science department.
+This section describes all things related to coding within the lab.<!--- Computation often follows [cloud computing]([https://en.wikipedia.org/wiki/Cloud_computing]). At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. ---> This tutorial discusses how to use the Ionic clusters provided by the computer science department.
 
 
 After getting started, a day-to-day procedure will typically look like:
