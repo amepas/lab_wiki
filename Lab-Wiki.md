@@ -275,12 +275,14 @@ After getting started, a day-to-day procedure will typically look like:
     ```
     - Type CS account password and duo factor as the window requests
 2. Now, you are in the clusters, to navigate to your disk space,
-    - Type <!---`cd ../../n/fs/[disk name]` --->
+    <!--- Type `cd ../../n/fs/[disk name]` --->
+    - Type
     ```bash
     cd /n/fs/[project_name]
     ```
 3. Treat this as your own folder. Clone GitHub repository, if needed:
-    - Type `git clone [repo https]`
+    <!--- Type `git clone [repo https]` --->
+    - Type
     ```bash
     git clone [repo https]
     ```
@@ -333,8 +335,11 @@ Now the clusters are ready to use. We will often use slurm to run programs. To r
     - Guide on how to create a slurm script: https://researchcomputing.princeton.edu/support/knowledge-base/slurm
 2. Navigate to the folder in cluster (following section 1).
 3. Upload `job.slurm` to the folder in cluster (see section 3.2).
-4. Type `sbatch -A vertaix job.slurm`. -A vertaix means using Vertaix machines. If not using Vertaix machines, remove ‘-A vertaix’.
-5. However, replacing point 4 above, a better way is to do `python -A vertaix sweep.py`. The `sweep.py` file has a slurm script as a Python string inside, along with other functions that submit multiple slurm scripts with different hyperparameters. This way allows one to run many machines simultaneously. 
+4. Type ```bash
+      sbatch -A vertaix job.slurm
+      ``` 
+    -A vertaix means using Vertaix machines. If not using Vertaix machines, remove ‘-A vertaix’.
+6. However, replacing point 4 above, a better way is to do `python -A vertaix sweep.py`. The `sweep.py` file has a slurm script as a Python string inside, along with other functions that submit multiple slurm scripts with different hyperparameters. This way allows one to run many machines simultaneously. 
     - Guide on how to create something like the [`sweep.py`](http://sweep.py) script is to be finished…
 
 ### Other Relevant Things
