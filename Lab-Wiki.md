@@ -411,5 +411,5 @@ Rebase is much more streamlined than "git merge" because it results in a commit 
 
 For example, let's say you just made a big change and committed it, but then realized you left a few debugging print statements that you want to remove. Instead of creating a tiny commit just for that one change, simply running "git commit -amend" will allow you to include the change with the previous commit, to not clutter the git history too much. 
 
-### PyTorch
+<!--- ### PyTorch --->
 
