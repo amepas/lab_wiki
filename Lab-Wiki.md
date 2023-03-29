@@ -303,7 +303,7 @@ https://csguide.cs.princeton.edu/software/virtualenv
 Follow the instructions up to step 3 and add the Python path to  ~/.bashrc file:
 open and edit  ~/.bashrc file with vim for instance:
 ```bash
-$ vim ~/.bashrc
+vim ~/.bashrc
 ```
 and add the Python path as follows:
 ```bash
@@ -314,7 +314,7 @@ export PATH="/n/fs/project_name/python_dir/bin:$PATH"
 ```
 then save and exit ~/.bashrc , finally
 ```bash
-$ source ~/.bashrc
+source ~/.bashrc
 ```
 Note that ```/n/fs/project_name/python_dir/``` should be the same location previously specified by ```--prefix``` in step 2.
 
@@ -335,7 +335,8 @@ Now the clusters are ready to use. We will often use slurm to run programs. To r
     - Guide on how to create a slurm script: https://researchcomputing.princeton.edu/support/knowledge-base/slurm
 2. Navigate to the folder in cluster (following section 1).
 3. Upload ```job.slurm``` to the folder in cluster (see section 3.2).
-4. Type ```bash
+4. Type 
+      ```bash
       sbatch -A vertaix job.slurm
       ``` .
 ``` -A vertaix``` means using Vertaix machines. If not using Vertaix machines, remove ```-A vertaix```.
