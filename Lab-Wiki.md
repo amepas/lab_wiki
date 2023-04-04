@@ -148,7 +148,7 @@ Furthermore, additional tips on writing paper rebuttals can be found at:
 ## Learning ressources
 
 ### Crystals
-The book : [Introduction to crystallography](https://faculty.ksu.edu.sa/sites/default/files/ebooksclub.org__Introduction_to_Crystallography__Dover_Classics_of_Science_and_Mathematics_.pdf) is a great ressource in order to understand what crystals are, how to represent them and generate new ones with high fidelity to the symmetries they abide by. (It has been the main focussemester reading goals of Vertaix during spring 2023).
+The book : [Introduction to crystallography](https://faculty.ksu.edu.sa/sites/default/files/ebooksclub.org__Introduction_to_Crystallography__Dover_Classics_of_Science_and_Mathematics_.pdf) is a great ressource in order to understand what crystals are, how to represent them and generate new ones with high fidelity to the symmetries they abide by. (It has been the main focussemester reading goals of Vertaix during spring 2023 : [Lab-Meeting-Presentations - Spring2023](https://docs.google.com/spreadsheets/d/1-Ruh2s2vk-jphlVKbF1DnHQ_aaH9oSZzbyoVZ1uLqUE/edit#gid=1952419835)).
 Its content includes the following relevant topics :
 - Crystals and lattices
 - Symmetry
