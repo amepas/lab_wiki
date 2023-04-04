@@ -157,11 +157,14 @@ Its content includes the following relevant topics :
 - X-ray diffractrion
 - Determination of atomic positions
 - Some simple structures
+
 In the goal to better understand crystals, it is as well important to consider the following papers :
+
 - Group theory for crystallongraphy : [Group theory applied to crystalligraphy](https://www.math.ru.nl/~souvi/krist_09/cryst.pdf)
 - Representation of crystals : Paper: [Periodic Graph Transformers for Crystal Material Property Prediction](https://arxiv.org/abs/2209.11807)
 - Generative modeling of crystals : [Crystal Diffusion Variational Autoencoder for Periodic Material Generation](https://arxiv.org/abs/2110.06197)
 - Sampling crystals :Paper: [Rigid body flows for sampling molecular crystal structures](https://arxiv.org/abs/2301.11355)
+
 The content in this [video](https://www.youtube.com/watch?v=pB6FQgvQsd8) on "crystal structures, Wyckoff positions, point and space groups, classification of optical vibrations" constitutes a good supplement to the topics being learned. 
     
 ### Getting to speed in Materials Science
