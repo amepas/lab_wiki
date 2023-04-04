@@ -164,8 +164,6 @@ Its content includes the following relevant topics :
     - Sampling crystals :Paper: [Rigid body flows for sampling molecular crystal structures](https://arxiv.org/abs/2301.11355)
  The content in this [video](https://www.youtube.com/watch?v=pB6FQgvQsd8) on "crystal structures, Wyckoff positions, point and space groups, classification of optical vibrations" constitutes a good supplement to the topics being learned. 
     
-    
-
 ### Getting to speed in Materials Science
 - [Material Science](https://www.youtube.com/playlist?list=PLDYTMDdLx1U3mdYhwCNGDjuFz2-b8I9oW). A great course to start with if new at Materials Science. Most of the complex topics are successfully summarized. 
 - [Introduction to Solid State Chemistry](https://www.edx.org/course/introduction-to-solid-state-chemistry). This course has no prerequisites in Chemistry. It only requires background in calculus.
