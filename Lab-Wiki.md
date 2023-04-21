@@ -1,5 +1,45 @@
-# Lab Policies
+# Vertaix Lab Wiki
 
+- [Lab Policies](#lab-policies)
+- [Lab Process for Projects](#lab-process-for-projects)
+- [Lab Roles](#lab-roles)
+- [Thriving in Graduate School](#thriving-in-graduate-school)
+  * [Mental Health & Self-Care](#mental-health--self-care)
+  * [Community](#community)
+  * [Time Management & Productivity](#time-management--productivity)
+- [Resources](#resources)
+  * [Writing](#writing)
+    + [Princeton Writing Center](#princeton-writing-center)
+    + [Style guidelines for paper writing](#style-guidelines-for-paper-writing)
+  * [Learning resources](#learning-resources)
+    + [Crystals](#crystals)
+    + [Getting to speed in Materials Science](#getting-to-speed-in-materials-science)
+    + [Getting to speed in Deep Learning](#getting-to-speed-in-deep-learning)
+    + [Getting to speed in Geometric Deep Learning](#getting-to-speed-in-geometric-deep-learning)
+    + [Getting to speed in Large Language Model](#getting-to-speed-in-large-language-model)
+    + [Other Learning resources](#other-learning-resources)
+    + [Courses at Princeton](#courses-at-princeton)
+  * [Academic Twitter](#academic-twitter)
+  * [Creating a Website](#creating-a-website)
+  * [Delivering Presentations](#delivering-presentations)
+  * [Writing a CV](#writing-a-cv)
+  * [Conferences & Workshops](#conferences--workshops)
+  * [Computing resources: A Practical Guide](#computing-resources-a-practical-guide)
+    + [Vertaix Cluster access](#vertaix-cluster-access)
+    + [Framework](#framework)
+    + [Getting Started](#getting-started)
+    + [Other Relevant Things](#other-relevant-things)
+      - [Virtual Environment](#virtual-environment)
+      - [Upload to and Download from the Clusters](#upload-to-and-download-from-the-clusters)
+  * [Libraries](#libraries)
+  * [Programming Workflow](#programming-workflow)
+    + [Visual Studio Code](#visual-studio-code)
+    + [GitHub Copilot](#github-copilot)
+  * [Coding Guidelines](#coding-guidelines)
+    + [General Guidelines](#general-guidelines)
+    + [Git Usage](#git-usage)
+
+# Lab Policies
 
 ## Confidentiality
 
@@ -7,7 +47,7 @@
 
 ## Communication
 
-# Lab Process for projects
+# Lab Process for Projects
 
 1. Start a GitHub repository: 
 - Add the supervisor and collaborators on the project
