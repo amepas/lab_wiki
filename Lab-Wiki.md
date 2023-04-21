@@ -1,5 +1,6 @@
 # Lab Policies
 
+
 ## Confidentiality
 
 ## External Collaborations
@@ -145,7 +146,7 @@ Furthermore, additional tips on writing paper rebuttals can be found at:
 - https://docs.google.com/document/d/1pU9xLLCQI4X_Uaw_MTwjdIyCLuGQ4ojWP_9dkFqxdvI/edit
 - Harvard CS197: AI Research Experiences : https://www.cs197.seas.harvard.edu/ (This course is highly recommended. All the materials are available online. The course covers a lot of things needed to be effective at doing research but not taught in classes)
 
-## Learning ressources
+## Learning resources
 
 ### Crystals
 The book : [Introduction to crystallography](https://faculty.ksu.edu.sa/sites/default/files/ebooksclub.org__Introduction_to_Crystallography__Dover_Classics_of_Science_and_Mathematics_.pdf) is a great ressource in order to understand what crystals are, how to represent them and generate new ones with high fidelity to the symmetries they abide by. (It has been the main focussemester reading goals of Vertaix during spring 2023 : [Lab-Meeting-Presentations - Spring2023](https://docs.google.com/spreadsheets/d/1-Ruh2s2vk-jphlVKbF1DnHQ_aaH9oSZzbyoVZ1uLqUE/edit#gid=1952419835)).
@@ -202,7 +203,7 @@ The content in this [video](https://www.youtube.com/watch?v=pB6FQgvQsd8) on "cry
 - [Lecture notes on gradient explosing and vanishing](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf)
 - [Transformers](https://e2eml.school/transformers.html) from scratch
 
-### Other Learning ressources
+### Other Learning resources
 - The youtube channel by [Steve Brunto](https://www.youtube.com/@Eigensteve). Many courses on various topics of interest to Vertaix are covered by Steve Brunto. For example Partial differential equations (https://youtu.be/pvrIagjEk4c)
 - List of educational ressources currated by Deepmind : https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf
 - [AI4Science101’s documentation](https://ai4science101.readthedocs.io/en/devel/index.html)
@@ -256,7 +257,7 @@ A Curriculum Vitae (CV) is a document that summarizes all of your prior academic
 
 ## Conferences & Workshops
 
-## Computing ressources: A Practical Guide
+## Computing resources: A Practical Guide
 
 At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. 
 Computation often follows [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing).
@@ -398,6 +399,19 @@ This section outlines how to upload and download things from the cluster.
 The Vertaix lab uses PyTorch for the majority of its machine learning computing needs. For a list of official PyTorch tutorials, please visit this page: https://pytorch.org/tutorials/ 
 
 Instructions for installing PyTorch can be found here: https://pytorch.org/get-started/locally/ 
+
+## Programming Workflow
+Here we provide some tools and tips for streamlining your development workflow.
+
+### Visual Studio Code
+VSCode, is a versatile, open-source code editor with many extensions and plugins that can enhance the programming experience. One useful VSCode extension for streamlining the development workflow is **Remote - SSH**. This extension allows users to open remote folders and edit the files directly on VSCode (i.e., you can work directly on the cluster). In addition, users can drag-and-drop files from their local machine into a remote folder or download remote files onto their local machine, avoiding the need for `scp` commands. 
+
+### GitHub Copilot
+GitHub Copilot is an AI pair programmer that offers autocomplete-style suggestions as you code. You can receive suggestions from GitHub Copilot either by starting to write the code you want to use, or by writing a natural language comment describing what you want the code to do. GitHub Copilot analyzes the context in the file you are editing, as well as related files, and offers suggestions from within your text editor. 
+
+GitHub Copilot is available as an extension in Visual Studio Code, Visual Studio, Neovim and the JetBrains suite of IDEs. Instructions for installing CoPilot can be found [here](https://docs.github.com/en/copilot/getting-started-with-github-copilot). Copilot demos: [1 min](https://youtu.be/IqXNhakuwVc), [16 min](https://youtu.be/B9DKv09IfT4)
+
+Students can use Copilot for free! Sign up for the Github student developer pack [here](https://education.github.com/pack?WT.mc_id=academic-88217-leestott) using your school email, and once your application is approved, connect your Github account to Copilot in the [Settings](https://github.com/settings/copilot) of your account.
 
 ## Coding Guidelines
 
