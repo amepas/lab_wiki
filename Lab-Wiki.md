@@ -229,6 +229,8 @@ The content in this [video](https://www.youtube.com/watch?v=pB6FQgvQsd8) on "cry
 - [Summer school on Statistical Physics & Machine learning](https://leshouches2022.github.io/)
 - [Deep Learning Systems](https://www.youtube.com/@deeplearningsystemscourse1116/videos)course. The course website : https://dlsyscourse.org
 - [Deep Multi-Task and Meta Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rMC6zfYmnD7UG3LVvwaITY5) 
+- [CS229br Foundations of Deep Learning (aka Topics in the Foundations of Machine Learning)](https://boazbk.github.io/mltheoryseminar/)
+- [The little book of Deep Learning](https://fleuret.org/public/lbdl.pdf)
 
 
 ### Getting to speed in Geometric Deep Learning
@@ -236,7 +238,6 @@ The content in this [video](https://www.youtube.com/watch?v=pB6FQgvQsd8) on "cry
 - [Frederic Schuller](https://www.youtube.com/c/FredericSchuller/playlists) youtube channel covers lectures on both Quantum Theory and Geometrical Anatomy of Theoretical Physics
 - GFlowNets ressources : https://github.com/zdhNarsil/Awesome-GFlowNets
 - [Stanford Graph Learning Workshop 2022](http://snap.stanford.edu/graphlearning-workshop-2022/)
-
 
 
 ### Getting to speed in Large Language Model
@@ -251,6 +252,8 @@ The content in this [video](https://www.youtube.com/watch?v=pB6FQgvQsd8) on "cry
 - [Tutorial on compression in ML](https://drive.google.com/drive/folders/1hIpZEh342rN8PzvdBBIfu655yjSAqwwu)
 - NeurIPS tutorials on various subjects: https://neurips.cc/virtual/2022/events/tutorial
 - Uncertain: modern topics in uncertainty estimation: https://uncertaintyclass.com/
+- [Institute for Pure & Applied Mathematics (IPAM)](https://www.youtube.com/@IPAMUCLA/videos)
+- [ICLR2023 workshop](https://www.ml4materials.com)
 
 ### Courses at Princeton
 - [Special Topics in Information Sciences and Systems: Theory of Deep Weakly Supervised Learning](https://registrar.princeton.edu/course-offerings/course-details?term=1232&courseid=002542)
