@@ -38,6 +38,8 @@
   * [Coding Guidelines](#coding-guidelines)
     + [General Guidelines](#general-guidelines)
     + [Git Usage](#git-usage)
+  * [Model Training](#model-training)
+    + [Hyperparameter Sweeping](#hyperparameter-sweeping)
 
 # Lab Policies
 
@@ -488,5 +490,89 @@ Rebase is much more streamlined than "git merge" because it results in a commit 
 
 For example, let's say you just made a big change and committed it, but then realized you left a few debugging print statements that you want to remove. Instead of creating a tiny commit just for that one change, simply running "git commit -amend" will allow you to include the change with the previous commit, to not clutter the git history too much. 
 
+## Model Training
+### Hyperparameter Sweeping
+- Step 1: create a python file where you define the arguments your model needs for training. For example add the following script into `sweep_args.py`:
+
+```python
+import argparse
+
+def args_parser():
+    parser = argparse.ArgumentParser(description='YourModelName')
+    parser.add_argument('--epochs',
+						help='Number of epochs',
+						type=int,
+						default=100)
+    parser.add_argument('--bs',
+						help='Batch size',
+						type=int,
+						default=64)
+    parser.add_argument('--lr',
+						help='Learning rate',
+						type=float,
+						default=0.001)
+    args = parser.parse_args()
+    return args
+```
+- Step 2: create a json file where keys are the argument names defined above and where each key can have multiple hyperparameter values that you want to sweep on to get the value that gives your model the best performance. For example add the following script into `sweep.json` file:
+
+```python
+{
+    "epochs": [50, 100, 150, 200]
+    "bs": [16, 32, 64],
+    "lr": [0.01, 0.001, 0.0001]
+}
+```
+- Step 3: create a sweep file that send your training script (for example `train.py` here) with different hyperparameter settings to the server for training. Here we can use `subprocess`, a python method that can help us to run a bash script within python file automatically.  For example add the following script into `sweep.py` file:
+```python
+import subprocess
+import json
+import argparse
+
+def write_run(jobname, extra=''):
+    with open('temp.sh', 'w') as f:
+        f.write("#!/bin/bash\n"
+                "#SBATCH --job-name=job_name{0}\n"
+                "#SBATCH --gres=gpu:1\n"
+                "#SBATCH --nodes=1\n"
+                "#SBATCH --ntasks=1\n"
+                "#SBATCH --cpus-per-task=1\n"
+                "#SBATCH --mem-per-cpu=50G\n"
+                "#SBATCH --time=167:00:00\n"
+                "#SBATCH --mail-type=begin\n"
+                "#SBATCH --mail-type=end\n"
+                "#SBATCH --mail-user=your_email\n".format(jobname))
+
+        cmd = "python -u train.py "
+        cat = " >jobname + ".out"
+        f.write(cmd+extra+cat+'\n')
+
+    subprocess.call('chmod +x temp.sh', shell=True)
+    time.sleep(0.1)
+    subprocess.call('sbatch -A vertaix temp.sh', shell=True)
+
+parser = argparse.ArgumentParser(description='')
+parser.add_argument('--sweep', type=str, default='sweep.json',
+                   help='sweep file')
+args = parser.parse_args()
+print(vars(args))
+
+with open(args.sweep, 'r') as f:
+    sweep_args = json.load(f)
+
+arglist = ['']
+for opt, vals in sweep_args.items():
+    new_arglist = []
+    for j, v in enumerate(vals):
+        for i in range(len(arglist)):
+            new_arglist.append( arglist[i] + ' --'+opt+' '+str(v) )
+    arglist = new_arglist
+
+for i, ar in enumerate(arglist):
+    print(i, ar)
+    write_run(str(i), ar)
+    print('-'*50)
+```
+- Final step: now instead of submiting your slurm script using sbatch, you have to run `sweep.py` which automatically submits for you multiple slurm scripts to train yout model with different hyperparameter values.
 <!--- ### PyTorch --->
 
