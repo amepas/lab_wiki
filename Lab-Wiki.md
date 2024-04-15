@@ -305,7 +305,7 @@ A Curriculum Vitae (CV) is a document that summarizes all of your prior academic
 ## Computing resources: A Practical Guide
 
 At Princeton, we use the university’s machines to store and compute. We call these machines ‘computing clusters’. 
-Computation often follows [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing).
+Computation often follows [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing). Vertaix have access to 3 clusters: **ionic** (maintained by Princeton CS), **neuronic** (maintained by Princeton CS), and **Della** (maintained by Princeton Engineering).
 
 ### Vertaix Cluster access
 
@@ -415,6 +415,45 @@ Now the clusters are ready to use. We will often use slurm to run programs. To r
 ``` -A vertaix``` means using Vertaix machines. If not using Vertaix machines, remove ```-A vertaix```.
 5. However, replacing point 4 above, a better way is to do ```python -A vertaix sweep.py```. The ```sweep.py``` file has a slurm script as a Python string inside, along with other functions that submit multiple slurm scripts with different hyperparameters. This way allows one to run many machines simultaneously. 
     - Guide on how to create something like the [`sweep.py`](http://sweep.py) script is to be finished…
+
+### Neuronic Cluster Access
+
+Neuronic is a new cluster that our lab was given early access to thanks to Adji's involvement in securing funding from the Dean for Research. Because it is maintained by Princeton CS, the overall workflow for using neuronic is almost identical to ionic. The dashboard for neuronic is here: 
+
+	https://clusters.cs.princeton.edu/
+
+Neuronic contains 33 identical nodes, each with 8 Nvidia L40 GPUs. There is One 10Gbps Ehternet uplink (not infiniband) betwen the nodes. This means that Neuronic is optimized for single-node, multi-GPU jobs. 
+
+To gain access to Neuronic, Adji can add you directly from the above link. Please provide her with your NetID for this to work. You do not need a CS account for this cluster. 
+
+As in the ionic cluster, you will need to submit a project disk space request at [this link](https://clusters.cs.princeton.edu/admin?crudAction=new&crudControllerFqcn=App%5CController%5CAdmin%5CSpaceRequestCrudController). 
+
+[Review the documentation for neuronic](https://clusters.cs.princeton.edu/admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CHelpPageCrudController) before you start using it. A few highlights: Do not run code on the login node itself - this is only OK if you're doing very quick limited testing. You can also specify a low priority partition with ```-p lowprio``` in your SBATCH or slurm command. These jobs are cheaper, but will have lower priority. This is greatly preferred if you're running code that you do not need results from immediately. Using the low priority partition will also maintain your priority rank for jobs you run with higher priority in the normal parition. 
+
+
+### Della Cluster Access
+
+Della is maintained by Princeton Engineering. Unlike in the ionic cluster, we do not have any GPUs reserved for our lab in particular. However, Della has 100+ GPUs available to all users across various login nodes. Additionally, in the near future, Vertaix will have access to the new PLI GPUs on Della!
+
+A basic introduction to Della is below:
+
+	https://researchcomputing.princeton.edu/systems/della
+
+#### Getting Started
+
+1. First, be added to Adji's sponsorship in Della. Send an email to cses@princeton.edu and CC Adji on the email. Make sure to specify your NetID.
+2. Install the Princeton-approved [VPN](https://princeton.service-now.com/service?id=kb_article&sys_id=6023) for accessing Della when not on Princeton wifi. 
+3. You will have access to two spaces: ```/scratch/gpfs/<net id>``` and ```/home/<net id>```. The scratch space is your large disk space, so plan to do your coding in that directory. 
+4. Setup your environment: Della has very clear documentation on how to do this. An example of how to do this for PyTorch environments with CUDA support is here: https://researchcomputing.princeton.edu/support/knowledge-base/pytorch
+
+#### Della Nodes and other Notes
+
+Della has a variety of nodes for different use cases. 
+-della-vis1 and della-vis2 are useful nodes when running code that either requires internet access or visualization. These nodes do not have a large amount of compute (see the above Della overview link for more details). 
+-della-gpu contains a large number of GPUs, but you are not allowed to run CPU only jobs on this node. GPU jobs with different memory requirements will be routed to separate queues. You can control this by specifying the partition as described in the Della documents. There is no internet access on this node either. 
+
+You can see your available filespace by running the ```checkquota``` command in Della. The command will also show instructions for how to request more space. 
+
 
 ### Other Relevant Things
 #### Virtual Environment
