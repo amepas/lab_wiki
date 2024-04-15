@@ -28,6 +28,10 @@
     + [Vertaix Cluster access](#vertaix-cluster-access)
     + [Framework](#framework)
     + [Getting Started](#getting-started)
+    + [Neuronic Cluster Access](#neuronic-access)
+    + [Della Cluster Access](#della-access)
+      - [Getting Started on Della](#della-start)
+      - [Della Nodes and other Notes](#della-nodes)
     + [Other Relevant Things](#other-relevant-things)
       - [Virtual Environment](#virtual-environment)
       - [Upload to and Download from the Clusters](#upload-to-and-download-from-the-clusters)
@@ -439,7 +443,7 @@ A basic introduction to Della is below:
 
 	https://researchcomputing.princeton.edu/systems/della
 
-#### Getting Started
+#### Getting Started on Della
 
 1. First, be added to Adji's sponsorship in Della. Send an email to cses@princeton.edu and CC Adji on the email. Make sure to specify your NetID.
 2. Install the Princeton-approved [VPN](https://princeton.service-now.com/service?id=kb_article&sys_id=6023) for accessing Della when not on Princeton wifi. 
